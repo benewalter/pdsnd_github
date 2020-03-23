@@ -14,6 +14,8 @@ The three questions are as follows:
 2. How does the distribution of the trip durations look like for the three cities?
 3. How does the duration of trips vary during the week? Do differences between the cities exist?
 
+To answer these questions, histograms and boxplots are used as the main types of visualizations.
+
 ### Files used
 The project uses bikeshare.R as the R script to analyse the data.
 The data about bikesharing in the three cities is provided by three csv files: chicago.csv, new_york_city.csv, and washington.csv
