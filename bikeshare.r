@@ -22,7 +22,7 @@ ggplot(aes(x=User.Type, y = Trip.Duration/60), data = subset(ny, User.Type == 'C
     ylab('Trip Duration in Minutes') +
     ggtitle('\t\tDistribution of Trip Durations -- Subscribers and  Customers') +
     # Adaptation of the size of the plot title
-    theme(plot.title = element_text(size=12))
+    theme(plot.title = element_text(size=16))
 
 # Looking at the summary statistics for the variable Trip.Duration (in minutes), distinguishing between Customers and Subscribers
 by(ny$Trip.Duration/60, ny$User.Type, summary)
@@ -62,7 +62,7 @@ ggplot(data = all_cities, aes(x = Trip.Duration/60)) +
     # Creation of a facet based on the three cities
     facet_wrap(~city_name)+
     # Definition of the axis labels as well as the title of the plot
-    xlab('Trip Duration in Minutes')+
+    xlab('Trip Duration [Minutes]')+
     ylab('Number of Trips') +
     ggtitle('\t\tDistribution of Trip Durations -- Comparison of the Cities') +
     # Setting the breaks
