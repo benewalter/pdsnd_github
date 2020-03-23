@@ -23,3 +23,6 @@ The data about bikesharing in the three cities is provided by three csv files: c
 ### Credits
 The GitHub repository was inspired and forked from the following repository: https://github.com/udacity/pdsnd_github.
 The bikeshare data was provided by Udacity's "Programming for Data Science with R" Nanodegree in collaboration with Motivate (https://www.motivateco.com/), a bikesharing system provider.
+
+### Future Plans
+Further questions that could be explored could look at the monthly usage of bikesharing and analyze whether a trend is observable and whether differences between the three cities exist.
