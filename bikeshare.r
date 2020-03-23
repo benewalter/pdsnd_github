@@ -62,7 +62,7 @@ ggplot(data = all_cities, aes(x = Trip.Duration/60)) +
     # Creation of a facet based on the three cities
     facet_wrap(~city_name)+
     # Definition of the axis labels as well as the title of the plot
-    xlab('Trip Duration in Minutes')+
+    xlab('Trip Duration [Minutes]')+
     ylab('Number of Trips') +
     ggtitle('\t\tDistribution of Trip Durations -- Comparison of the Cities') +
     # Setting the breaks
