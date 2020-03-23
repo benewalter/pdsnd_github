@@ -15,6 +15,9 @@ The three questions are as follows:
 3. How does the duration of trips vary during the week? Do differences between the cities exist?
 
 ### Files used
+The project uses bikeshare.R as the R script to analyse the data.
+The data about bikesharing in the three cities is provided by three csv files: chicago.csv, new_york_city.csv, and washington.csv
 
 ### Credits
-
+The GitHub repository was inspired and forked from the following repository: https://github.com/udacity/pdsnd_github.
+The bikeshare data was provided by Udacity's "Programming for Data Science with R" Nanodegree in collaboration with Motivate (https://www.motivateco.com/), a bikesharing system provider.
