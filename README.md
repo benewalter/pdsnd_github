@@ -1,15 +1,12 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on March 13, 2020.
 
 ### Project Title
-Replace the Project Title
+The project is called "Explore Bike Share Data".
 
 ### Description
-Describe what your project is about and what it does
 
 ### Files used
-Include the files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
